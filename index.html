@@ -4,18 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Weather App</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>Weather forecast</header>
-    <input type="text" id="search" placeholder="Search..." />
-    <button onclick="search()">Search</button>
-    <p id="output"></p>
+    <div class="box">
+      <header>Weather forecast</header>
+      <input type="text" id="search" placeholder="Type City..." />
+      <button onclick="search()">Search</button>
+      <p id="output"></p>
 
-    <h1>Harare</h1>
-    <p>
-      🌨️30°
-      <br />Monday,23 Jan <br />windspeed: 25km/h <br />time 10:30
-    </p>
-    <footer>coded by Tanyae💖</footer>
+      <h1>Harare</h1>
+      <p>
+        <span id="temperature"> 🌨️30°</span>
+        <br /><span id="date">Monday,23 Jan</span> <br /><span id="windspeed">
+          windspeed: 25km/h</span
+        >
+        <br /><span id="time"> 10:30</span>
+      </p>
+      <footer>coded by Tanyae💖</footer>
+    </div>
   </body>
 </html>

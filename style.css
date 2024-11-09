@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(202, 250, 250);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(7, 97, 97);
+}
+.box {
+  background-color: rgb(164, 236, 236);
+  width: 500px;
+  height: 500px;
+  border: 2px solid rgb(134, 218, 218);
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 10px 10px 15px rgb(119, 194, 194);
+}
+header {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 45px;
+  color: rgb(21, 136, 136);
+  text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+h1 {
+  font-size: 50px;
+  text-decoration: underline;
+}
+#temperature {
+  font-size: 50px;
+}
+#windspeed {
+  font-size: 20px;
+}
+#time {
+  font-size: 35px;
+}
