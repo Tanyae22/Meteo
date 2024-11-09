@@ -4,10 +4,11 @@ body {
   color: rgb(7, 97, 97);
 }
 .box {
+  margin: 30px auto;
   display: block;
   background-color: rgb(164, 236, 236);
-  width: 500px;
-  height: 500px;
+  max-width: 600px;
+  max-height: 500px;
   border: 2px solid rgb(134, 218, 218);
   border-radius: 10px;
   padding: 15px;
@@ -15,7 +16,7 @@ body {
 }
 header {
   text-align: center;
-  padding: 30px 15px;
+  padding-bottom: 15px;
   font-family: "Times New Roman", Times, serif;
   font-size: 45px;
   color: rgb(21, 136, 136);
@@ -25,11 +26,18 @@ h1 {
   font-size: 50px;
   text-decoration: underline;
 }
-#temperature {
+#temperature-value {
+  font-weight: 50;
+  font-size: 80px;
+}
+#temperature-emoji {
   font-size: 50px;
 }
 #windspeed {
   font-size: 20px;
+}
+#temperature {
+  display: flex;
 }
 #time {
   font-size: 35px;
@@ -60,4 +68,8 @@ button:hover {
   border: 2px solid rgb(21, 136, 136);
   border-radius: 3px;
   margin: 5px 5px;
+}
+.weather-data {
+  display: block;
+  justify-content: space-between;
 }
