@@ -4,6 +4,7 @@ body {
   color: rgb(7, 97, 97);
 }
 .box {
+  display: block;
   background-color: rgb(164, 236, 236);
   width: 500px;
   height: 500px;
@@ -13,6 +14,8 @@ body {
   box-shadow: 10px 10px 15px rgb(119, 194, 194);
 }
 header {
+  text-align: center;
+  padding: 30px 15px;
   font-family: "Times New Roman", Times, serif;
   font-size: 45px;
   color: rgb(21, 136, 136);
@@ -30,4 +33,31 @@ h1 {
 }
 #time {
   font-size: 35px;
+}
+footer {
+  font-size: 10px;
+}
+button {
+  border-radius: 3px;
+  border: 1px solid rgb(7, 97, 97);
+  background-color: rgb(7, 97, 97);
+  color: white;
+  width: 100px;
+  height: 50px;
+  font-size: 25px;
+  margin: 5px 5px;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(202, 250, 250);
+  color: rgb(7, 97, 97);
+  border: 1px solid rgb(7, 97, 97);
+}
+#search {
+  width: 300px;
+  height: 45px;
+  border: 2px solid rgb(21, 136, 136);
+  border-radius: 3px;
+  margin: 5px 5px;
 }
