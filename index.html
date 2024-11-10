@@ -8,14 +8,17 @@
   </head>
   <body>
     <div class="box">
-      <header>Weather forecast</header>
-      <form class="search-form" id="search-form">
-        <input type="search" id="search" placeholder="Type City..." />
-      <button onclick="search()">Search</button>
-      <p id="output"></p>
-    </form>
+      <form class="search-form">
+          <input
+            type="search" id="search"
+            placeholder="Enter a city.."
+            required
+            class="search-form-input"
+          />
+          <input type="submit" id="button" value="Search" class="search-form-button" />
+        </form>
 
-      <h1>Harare</h1>
+      <h1 id="city">Harare</h1>
       <p>
 <div class="weather-data">
   <div id="temperature">
