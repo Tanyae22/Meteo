@@ -45,7 +45,7 @@ h1 {
 footer {
   font-size: 10px;
 }
-#button {
+.search-form-button {
   padding: 0 auto;
   border-radius: 3px;
   border: 1px solid rgb(7, 97, 97);
@@ -58,12 +58,12 @@ footer {
   transition-duration: 0.3s;
   cursor: pointer;
 }
-#button:hover {
+.search-form-button:hover {
   background-color: rgb(202, 250, 250);
   color: rgb(7, 97, 97);
   border: 1px solid rgb(7, 97, 97);
 }
-#search {
+#search-form-input {
   font-size: 20px;
   width: 300px;
   border: 2px solid rgb(21, 136, 136);
